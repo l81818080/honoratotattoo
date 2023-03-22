@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>AluraBooks</title>
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Sobre</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Últimos trabalhos</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Localização</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Contato</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Depoimentos</a>
+                </li>
+            </ul>
+            <img src="img/honoratotattoologo.png" alt="Logo do Honorato Tattoo" class="container__imagem">
+            <h1 class="container__titulo">Honorato<b class=container__titulo--negrito>Tattoo</b></h1>
+            <div class="container__contatos">
+                <a href="https://api.whatsapp.com/message/FNYDNRMKCOUGD1"><img src="img/logo-whatsapp.png" class="container__imagem--contato" alt="logo do whatsapp"></a>
+                <a href="https://www.instagram.com/honoratotattoo/"><img src="img/instagram.png" class="container__imagem--contato" alt="logo do whatsapp"></a>
+            </div>
+        </div>
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Sobre</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Benefícios</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Localização</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Galeria de fotos</a>
+                </li>
+                <li class="lista-menu__item"
+                    ><a href="#" class="lista-menu__link">Depoimentos</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="https://api.whatsapp.com/message/FNYDNRMKCOUGD1" class="opções__link">Whatsapp</a></li>
+            <li class="opções__item"><a href="https://www.instagram.com/honoratotattoo/" class="opções__link">Instagram</a></li>
+        </ul>
+    </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Olá! Já sabe o que vai tatuar?</h2>
+            <p class="banner__texto">Encontre uma inspiração!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Pesquise a sua próxima tatuagem. Exemplo: tigre">
+            <form action="https://www.google.com/search" method="get" class="search=bar">
+            </section>
+        <section class="sobre">
+            <h2 class="sobre-titulo">Sobre o Honorato</h2>
+            <div class="sobre-caixa">
+                <div class="sobre-caixa__texto">
+                    <p class="sobre-texto">Desde criança sempre fui facinado por arte. Antes de iniciar minha jornada como tatuador, tinha como principal hobby o desenho. 
+                        <br>Comecei a tatuar aos 29 anos de idade, desde então venho eternizando momentos e memórias únicas na pele de meus clientes.</p>
+                </div>
+                </div>
+                <p class="sobre-texto">Minha missão é: Elevar a auto-estima e eternizar memórias e momentos em meus clientes.</p>
+             <div class="sobre-imagem__texto">   
+                <img class="sobre-imagem" src="img/logo-preto.jpg" alt="Honorato foto preto e branco.">
+                <p class="sobre-texto">Trabalha para que teus clientes te procurem por ser o melhor, não o mais barato. <br><br>(autor desconhecido)</p>
+             </div>
+        </section>
+        <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos trabalhos</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (1).png" alt="Uma adaga com flor e olho tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (2).png" alt="Livrai-me de todo mal amém tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (3).png" alt="Tatuagem ornamental delicada"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (4).png" alt="Gatinho com flores e detalhes coloridos tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (5).png" alt="Oldschool beija-flor tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (6).png" alt="Gato psicodélico olhos verdes delicada tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (7).png" alt="Sempre fui sonhador é isso que me mantem firme tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (8).png" alt="Tigre realismo tattoo mão"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (9).png" alt="Tigre oldschool black tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (10).png" alt="Serpente roxa com flor tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (11).png" alt="Serpente delicada com flores tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (12).png" alt="Flores delicada tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (13).png" alt="Leoa com flores delicada tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (14).png" alt="Mariposa com flores vermelhas tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (15).png" alt="Beija flor e guarda-chuvas oldschool black tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (16).png" alt="Oldschool mulher com flores tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (17).png" alt="Uma adaga oldschool tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (18).png" alt="Tigre black work tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (19).png" alt="Coração black work tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (20).png" alt="Beija flor black work tattoo"></div>
+                    <div class="swiper-slide"><img src="img/carrossel/carrossel (21).png" alt="Mestre Picolo Dragon Ball anime tattoo"></div>
+                </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tópicos">
+            <h2 class="tópicos__titulo">TRABALHO COM:</h2>
+            <ul class="tópicos__lista">
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Old-school</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Black work</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Delicadas</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Realismo</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Freehand</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Anime</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">Tracejadas</a>
+                </li>
+                <li class="tópicos__item">
+                    <a href="#" class="tópicos__link">E muito mais</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contato">
+            <div class="contato__descrição">
+                <h2 class="contato__titulo">Onde estamos localizados?</h2>
+                <a href="https://www.instagram.com/ocontainertattoo.piercing/"><p class="contato__texto"></p>O Container Tattoo Piercing</a> tem ótima localização em frente à universidade IASP em Hortôlandia.</p>
+            </div>
+            <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29407.941375708313!2d-47.259337284374986!3d-22.876729099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8bb8d5a1860a3%3A0xa158a46a04681abc!2sO%20CONTAINER!5e0!3m2!1spt-PT!2sbr!4v1679513198794!5m2!1spt-PT!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>            
+        </section>
+
+        <hr/>
+
+        <footer class="rodapé">
+            <img src="img/honoratotattoologo.png" alt="Logo da Alurabooks" class="rodapé__imagem">
+            <h1 class="container__titulo">Honorato<b class=container__titulo--negrito>Tattoo</b></h1>
+        </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+</html>
